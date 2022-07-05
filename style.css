@@ -1,3 +1,50 @@
 body {
     font-family: 'Outfit', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 900;
+    color: #ffffff;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 160%;
+    /* color: #ffffff; */
+}
+
+.hero-banner {
+    position: relative;
+    text-align: center;
+    /* margin: 0 auto; */
+    background-image: url(images/Donate-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    padding: 120px 0;
+}
+
+.content-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 16px 32px;
+    background-color: #FF5959;
+    border-radius: 5px;
+
+}
+
+.donate-amount {
+    text-align: center;
 }
