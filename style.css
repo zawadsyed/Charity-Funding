@@ -25,7 +25,6 @@ p {
     color: #707070;
     font-size: 18px;
     line-height: 160%;
-    /* color: #ffffff; */
 }
 
 input[type=text] {
@@ -41,20 +40,26 @@ input[type=text] {
 
 input[type=email] {
     border: none;
+    border-radius: 5px 0 0 5px;
     width: 320px;
     height: 52px;
     padding-left: 24px;
     margin-right: -6px;
 }
 
+footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #0B0D17;
+    padding: 120px;
+}
+
 .hero-banner {
     text-align: center;
-    /* margin: 0 auto; */
     background-image: url(images/Donate-hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100%;
     padding: 120px 0;
 }
 
@@ -87,46 +92,15 @@ input[type=email] {
 }
 
 .bdt-amount {
-    text-align: center;
-    color: #707070;
-    font-weight: 700;
-    font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
 }
 
-.hundred-bdt {
-    background-color: #FAFAFA;
-    color: #707070;
-    border-radius: 5px;
-    padding: 32px 24px;
-}
-
-.two-hundred-bdt {
-    background-color: #FFEEEE;
-    color: #FF5959;
-    border: 2px solid #FF5959;
-    border-radius: 5px;
-    padding: 32px 24px;
-}
-
-.five-hundred-bdt {
-    background-color: #FAFAFA;
-    color: #707070;
-    border-radius: 5px;
-    padding: 32px 24px;
-}
-
-.one-thousand-bdt {
-    background-color: #FAFAFA;
-    color: #707070;
-    border-radius: 5px;
-    padding: 32px 24px;
-}
-
-.five-thousand-bdt {
+.unselected-bdt {
+    font-weight: 700;
+    font-size: 24px;
     background-color: #FAFAFA;
     color: #707070;
     border-radius: 5px;
@@ -145,9 +119,8 @@ input[type=email] {
 
 .cards {
     display: flex;
-    justify-content: center;
-    gap: 32px;
-    padding: 0 100px;
+    gap: 24px;
+    padding: 0 280px;
 }
 
 .single-card {
@@ -159,20 +132,21 @@ input[type=email] {
 
 .contribution-way {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 150;
-    padding-left: 280px;
-    padding-right: 280px;
-    /* margin-right: -50px; */
+    padding: 0 280px;
+}
+
+.half-width {
+    width: 50%;
 }
 
 .donate-us {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #FFEFEF;
-    padding-left: 280px;
+    padding: 0 280px;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -185,40 +159,18 @@ input[type=email] {
     align-items: center;
     gap: 8px;
     padding: 8px 24px;
-    width: 60%;
     border-radius: 10px;
     border-left: 5px solid #FF5959;
 }
 
-.numbers {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-
-}
-
-.numbers h2 {
-    margin-bottom: 24px;
-}
-
-#human-image {
-    width: 70%
-}
-
 .surviving-way {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 150;
-    padding-left: 280px;
-    padding-right: 280px;
+    padding: 0 280px;
 }
 
-.half-width {
-    width: 50%;
-}
-
-.content {
+.half-width-content {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -226,17 +178,17 @@ input[type=email] {
     gap: 24px;
 }
 
-
-.first {
-    background-color: rgba(79, 157, 166, 0.1);
+.get-update {
+    margin: 0 auto 150px;
+    text-align: center;
+    width: 50%;
 }
 
-.second {
-    background-color: rgba(255, 89, 89, 0.1);
-}
-
-.third {
+.subscription-form {
     background-color: #FFF4D6;
+    border-radius: 10px;
+    padding: 120px;
+    margin-top: 24px;
 }
 
 .content-hero p {
@@ -251,29 +203,44 @@ input[type=email] {
     color: #121212;
 }
 
-.get-update {
-    margin: 0 auto 150px;
-    text-align: center;
-    width: 50%;
+#selected-bdt {
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    padding: 32px 24px;
 }
 
+#first {
+    background-color: rgba(79, 157, 166, 0.1);
+}
 
+#second {
+    background-color: rgba(255, 89, 89, 0.1);
+}
 
-.subscription-form {
+#third {
     background-color: #FFF4D6;
-    border-radius: 10px;
-    padding: 120px;
-    margin-top: 24px;
 }
 
-footer {
-    text-align: center;
-    color: #ffffff;
-    background-color: #0B0D17;
-    padding: 120px;
+#numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
 }
 
-.company-name {
+#human-image {
+    width: 60%
+}
+
+#subscription-button {
+    border-radius: 0 5px 5px 0;
+}
+
+#company-name {
     color: #FF5959;
     font-family: 'Lobster', cursive;
 }

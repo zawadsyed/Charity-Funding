@@ -33,19 +33,19 @@
             </p>
         </div>
         <div class="bdt-amount">
-            <div class="hundred-bdt">
+            <div class="unselected-bdt">
                 100tk
             </div>
-            <div class="two-hundred-bdt">
+            <div id="selected-bdt">
                 200tk
             </div>
-            <div class="five-hundred-bdt">
+            <div class="unselected-bdt">
                 500tk
             </div>
-            <div class="one-thousand-bdt">
+            <div class="unselected-bdt">
                 1000tk
             </div>
-            <div class="five-thousand-bdt">
+            <div class="unselected-bdt">
                 5000tk
             </div>
         </div>
@@ -61,24 +61,24 @@
             </p>
         </div>
         <div class="cards">
-            <div class="single-card first">
-                <img src="icons/food.png" alt="">
+            <div id="first" class="single-card">
+                <img src="icons/food.png" alt="food icon">
                 <div class="card-content">
                     <h3>Food for a family</h3>
                     <p>we throw away an unbelievable amount of perfectly edible food every day. At the same time, a
                         growing number of Bangladeshi find themselves struggling to make ends meet </p>
                 </div>
             </div>
-            <div class="single-card second">
-                <img src="icons/shelter.png" alt="">
+            <div id="second" class="single-card">
+                <img src="icons/shelter.png" alt="shelter icon">
                 <div class="card-content">
                     <h3>Shelter for a family</h3>
                     <p>This is an opportunity to create a positive impact and be a significant force for achieving peace
                         and development.</p>
                 </div>
             </div>
-            <div class="single-card third">
-                <img src="icons/Frame-1.png" alt="">
+            <div id="third" class="single-card">
+                <img src="icons/education.png" alt="education icon">
                 <div class="card-content">
                     <h3>Education for a child</h3>
                     <p>Are you ready to become an international volunteer You can contribute your time, skills and
@@ -89,7 +89,7 @@
         </div>
     </section>
     <section class="contribution-way">
-        <div class="half-width content">
+        <div class="half-width half-width-content">
             <h2>
                 Their lives depend on <br>your donation
             </h2>
@@ -102,14 +102,14 @@
             <a class="link-button" href="#">How to contribute</a>
         </div>
         <div class="half-width">
-            <img class="human-image" src="images/donation-way.jpg" alt="">
+            <img src="images/donation-way.jpg" alt="">
         </div>
     </section>
     <section class="donate-us">
         <div class="half-width">
             <img id="human-image" src="images/Donate 1.png" alt="">
         </div>
-        <div class="half-width numbers">
+        <div id="numbers" class="half-width">
             <h2>We Have Done a Lot <br> For This Time</h2>
             <div class="stats">
                 <h1>77</h1>
@@ -131,9 +131,9 @@
     </section>
     <section class="surviving-way">
         <div class="half-width">
-            <img src="images/donation-way.jpg" alt="">
+            <img src="images/surviving-way.jpg" alt="">
         </div>
-        <div class="half-width content">
+        <div class="half-width half-width-content">
             <h2>
                 They need us <br>to suvive
             </h2>
@@ -141,7 +141,7 @@
                 served by local school, clergy and lay <br> leaders who have been empowered and supplied with goods <br>
                 by Food
                 For The Poor.</p>
-            <a class="link-button" href="#">How to contribute</a>
+            <a class="link-button" href="#">Learn More</a>
         </div>
     </section>
     <section class="get-update">
@@ -150,13 +150,12 @@
         <p>Don't miss a drop, subscribe to our newsletter.</p>
         <div class="subscription-form">
             <input type="email" placeholder="Enter your email...">
-            <a class="link-button" href="#">Subscribe</a>
+            <a id="subscription-button" class="link-button" href="#">Subscribe</a>
         </div>
-
     </section>
 </body>
 <footer>
-    <h2><span class="company-name">
+    <h2><span id="company-name">
             Charity Foundation
         </span>
     </h2>
