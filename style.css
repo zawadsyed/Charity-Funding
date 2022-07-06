@@ -4,7 +4,7 @@ body {
 }
 
 section {
-    margin-bottom: 120px;
+    margin-bottom: 150px;
 }
 
 h1 {
@@ -15,11 +15,14 @@ h1 {
 }
 
 h2 {
+    color: #121212;
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
 
 p {
+    color: #707070;
     font-size: 18px;
     line-height: 160%;
     /* color: #ffffff; */
@@ -34,6 +37,13 @@ input[type=text] {
     padding-bottom: 16px;
     border: none;
     border-bottom: 2px solid #DADADA;
+}
+
+input[type=email] {
+    border: none;
+    width: 320px;
+    height: 52px;
+    padding-left: 24px;
 }
 
 .hero-banner {
@@ -113,7 +123,7 @@ input[type=text] {
 
 .single-card {
     width: 360px;
-    padding: 32px;
+    padding: 56px 32px;
     border-radius: 5px;
 
 }
@@ -149,15 +159,6 @@ input[type=text] {
     gap: 24px;
 }
 
-.content h2 {
-    margin: 0;
-}
-
-/* .card-content {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-} */
 
 .first {
     background-color: rgba(79, 157, 166, 0.1);
@@ -173,4 +174,35 @@ input[type=text] {
 
 .content-hero p {
     color: #ffffff;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.get-update {
+    margin: 0 auto 150px;
+    text-align: center;
+    width: 50%;
+}
+
+
+
+.subscription-form {
+    background-color: #FFF4D6;
+    border-radius: 10px;
+    padding: 120px;
+    margin-top: 24px;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #0B0D17;
+    padding: 120px;
+}
+
+.company-name {
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
 }
