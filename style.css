@@ -44,6 +44,7 @@ input[type=email] {
     width: 320px;
     height: 52px;
     padding-left: 24px;
+    margin-right: -6px;
 }
 
 .hero-banner {
@@ -78,7 +79,7 @@ input[type=email] {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24spx;
+    gap: 24px;
 }
 
 .donate-amount-content {
@@ -93,13 +94,41 @@ input[type=email] {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 48px;
+    gap: 24px;
+}
+
+.hundred-bdt {
+    background-color: #FAFAFA;
+    color: #707070;
+    border-radius: 5px;
+    padding: 32px 24px;
 }
 
 .two-hundred-bdt {
     background-color: #FFEEEE;
     color: #FF5959;
     border: 2px solid #FF5959;
+    border-radius: 5px;
+    padding: 32px 24px;
+}
+
+.five-hundred-bdt {
+    background-color: #FAFAFA;
+    color: #707070;
+    border-radius: 5px;
+    padding: 32px 24px;
+}
+
+.one-thousand-bdt {
+    background-color: #FAFAFA;
+    color: #707070;
+    border-radius: 5px;
+    padding: 32px 24px;
+}
+
+.five-thousand-bdt {
+    background-color: #FAFAFA;
+    color: #707070;
     border-radius: 5px;
     padding: 32px 24px;
 }
@@ -136,6 +165,44 @@ input[type=email] {
     padding-left: 280px;
     padding-right: 280px;
     /* margin-right: -50px; */
+}
+
+.donate-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFEFEF;
+    padding-left: 280px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.stats {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 24px;
+    width: 60%;
+    border-radius: 10px;
+    border-left: 5px solid #FF5959;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.numbers h2 {
+    margin-bottom: 24px;
+}
+
+#human-image {
+    width: 70%
 }
 
 .surviving-way {
@@ -178,6 +245,10 @@ input[type=email] {
 
 .half-width img {
     width: 80%;
+}
+
+.stats h1 {
+    color: #121212;
 }
 
 .get-update {
