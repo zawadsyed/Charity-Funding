@@ -16,6 +16,7 @@ h1 {
 
 h2 {
     font-size: 48px;
+    font-weight: 900;
 }
 
 p {
@@ -67,15 +68,11 @@ input[type=text] {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 24spx;
 }
 
 .donate-amount-content {
     text-align: center;
-}
-
-.content-hero p {
-    color: #ffffff;
 }
 
 .bdt-amount {
@@ -97,6 +94,83 @@ input[type=text] {
     padding: 32px 24px;
 }
 
+.donate-plan {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
 .donate-plan-content {
     text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 0 100px;
+}
+
+.single-card {
+    width: 360px;
+    padding: 32px;
+    border-radius: 5px;
+
+}
+
+.contribution-way {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150;
+    padding-left: 280px;
+    padding-right: 280px;
+    /* margin-right: -50px; */
+}
+
+.surviving-way {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150;
+    padding-left: 280px;
+    padding-right: 280px;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.content h2 {
+    margin: 0;
+}
+
+/* .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+} */
+
+.first {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+.second {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+.third {
+    background-color: #FFF4D6;
+}
+
+.content-hero p {
+    color: #ffffff;
 }
